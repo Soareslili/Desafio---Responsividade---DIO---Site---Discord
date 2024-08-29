@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header*/
+
+header {
+  background-image: url(./img/animado.png);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 94px;
+  left: 261px;
+  gap: 24px;
+}
+
+.Inicio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Inicio .titulo-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  color: white;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 95%;
+  font-family: "Luckiest Guy", cursive;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.Inicio .text-1 {
+  font-family: Open Sans;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 20px;
+}
+
+.btn .baixar {
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.btn .navegador {
+  width: 300px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/*Section - 1*/
+
+.content-conversa {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-conversa .conversas-pessoas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  color: #23272a;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 95%;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.content-conversa .explicacao {
+  font-family: Open Sans;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 800px;
+  line-height: 22px;
+  text-align: center;
+  color: black;
+}
+
+/*+ section-2*/
+
+.voice-connected {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
+}
+
+.voice-connected .encontro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: #23272a;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 95%;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.voice-connected .canal {
+  font-family: Open Sans;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800px;
+  line-height: 22px;
+  text-align: center;
+  color: black;
+}
+
+/* section-3*/
+.comunidade {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.comunidade .organizacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  color: #23272a;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 95%;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
+.comunidade .membros {
+  font-family: Open Sans;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800px;
+  line-height: 22px;
+  text-align: center;
+  color: black;
+}
+
+/* section-3 */
+
+.tecnologia {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.tecnologia .conexao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.tecnologia .conection-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  color: #23272a;
+  font-size: 45px;
+  font-weight: 800px;
+  font-family: Luckiest Guy, cursive;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.tecnologia .voz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 22px;
+  color: black;
+  font-weight: 600px;
+  margin-bottom: 15px;
+}
+
+/* rodape */
+
+footer img{
+  width: 100%;
+  height: 150px;
+}
+
+/* media */
+
+@media screen and (max-width: 430px) {
+  /* Adjust header for iPhone 14 Pro Max */
+  header {
+    height: 300px; /* Reduce the height to fit the smaller screen */
+    background-size: cover;
+    top: 0;
+    left: 0;
+    gap: 12px;
+  }
+
+  .Inicio .titulo-principal {
+    width: 100%; /* Make it responsive */
+    font-size: 32px; /* Smaller font size for better readability */
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .Inicio .text-1 {
+    width: 90%;
+    font-size: 14px; /* Adjust font size for better readability */
+    line-height: 20px;
+    padding: 0 10px;
+  }
+
+  .btn {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 20px; /* Smaller gap between buttons */
+    margin-top: 10px;
+  }
+
+  .btn .baixar, .btn .navegador {
+    width: 80%; /* Reduce button width to fit smaller screen */
+    height: 35px; /* Adjust button height */
+  }
+
+  /* Section 1 */
+  .content-conversa .conversas-pessoas {
+    font-size: 28px; /* Smaller font size */
+    margin-bottom: 10px;
+  }
+
+  .content-conversa .explicacao {
+    width: 90%; /* Make text responsive */
+    font-size: 14px; /* Smaller font size */
+    padding: 0 10px;
+  }
+
+  /* Section 2 */
+  .voice-connected .encontro, 
+  .voice-connected .canal, 
+  .comunidade .organizacion, 
+  .comunidade .membros,
+  .tecnologia .conection-1, 
+  .tecnologia .voz {
+    width: 90%; /* Make content responsive */
+    font-size: 14px; /* Adjust font size */
+    padding: 0 10px;
+    text-align: center; /* Center align text */
+  }
+
+  /* Footer */
+  footer img {
+    height: 100px; /* Adjust footer image height */
+  }
+}
+
+
