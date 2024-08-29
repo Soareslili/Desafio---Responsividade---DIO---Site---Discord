@@ -254,68 +254,61 @@ footer img{
 /* media */
 
 @media screen and (max-width: 430px) {
-  /* Adjust header for iPhone 14 Pro Max */
+  /* Ajustes gerais */
   header {
-    height: 300px; /* Reduce the height to fit the smaller screen */
+    height: 300px;
+    background-position: center;
     background-size: cover;
-    top: 0;
-    left: 0;
-    gap: 12px;
   }
 
   .Inicio .titulo-principal {
-    width: 100%; /* Make it responsive */
-    font-size: 32px; /* Smaller font size for better readability */
+    width: 100%;
+    font-size: 35px;
     line-height: 1.2;
-    margin-bottom: 10px;
   }
 
   .Inicio .text-1 {
-    width: 90%;
-    font-size: 14px; /* Adjust font size for better readability */
+    width: 100%;
+    font-size: 14px;
     line-height: 20px;
     padding: 0 10px;
   }
 
-  .btn {
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 20px; /* Smaller gap between buttons */
-    margin-top: 10px;
-  }
-
   .btn .baixar, .btn .navegador {
-    width: 80%; /* Reduce button width to fit smaller screen */
-    height: 35px; /* Adjust button height */
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
   }
 
-  /* Section 1 */
-  .content-conversa .conversas-pessoas {
-    font-size: 28px; /* Smaller font size */
-    margin-bottom: 10px;
+  .content-conversa .conversas-pessoas, .content-conversa .explicacao {
+    width: 90%;
+    font-size: 20px;
+    line-height: 1.5;
   }
 
-  .content-conversa .explicacao {
-    width: 90%; /* Make text responsive */
-    font-size: 14px; /* Smaller font size */
-    padding: 0 10px;
+  .voice-connected .encontro, .voice-connected .canal {
+    width: 90%;
+    font-size: 20px;
   }
 
-  /* Section 2 */
-  .voice-connected .encontro, 
-  .voice-connected .canal, 
-  .comunidade .organizacion, 
-  .comunidade .membros,
-  .tecnologia .conection-1, 
+  .comunidade .organizacion, .comunidade .membros {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .tecnologia .conection-1 {
+    width: 90%;
+    font-size: 25px;
+  }
+
   .tecnologia .voz {
-    width: 90%; /* Make content responsive */
-    font-size: 14px; /* Adjust font size */
-    padding: 0 10px;
-    text-align: center; /* Center align text */
+    width: 90%;
+    font-size: 14px;
+    line-height: 20px;
   }
 
-  /* Footer */
   footer img {
-    height: 100px; /* Adjust footer image height */
+    height: 100px;
   }
 }
 
